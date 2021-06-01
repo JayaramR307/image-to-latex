@@ -20,7 +20,7 @@ pip install -r requirements.txt
 Run the flask app
 ```sh
 cd image-to-latex 
-pip app.py
+python app.py
 ```
 
 Go to localhost : 
