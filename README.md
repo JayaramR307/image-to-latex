@@ -10,7 +10,7 @@ Requires Python 3.7+ & dependencies to run.
 Install the requirements.
 
 Download/Clone this repository
-```sh
+```python
 cd image-to-latex 
 pip install -r requirements.txt
 ```
@@ -18,20 +18,20 @@ pip install -r requirements.txt
 ## Using the application
 
 Run the flask app
-```sh
+```python
 cd image-to-latex 
 python app.py
 ```
 
 Go to localhost : 
-```sh 
+```
 http://127.0.0.1:5000/ 
 ```
 Home screen will display: Veda Smart Math Solver
 
 Append the base64 string of the image to url to get the LaTeX
 
-```sh 
+```
 http://127.0.0.1:5000/[base64 image string]
 ```
 
